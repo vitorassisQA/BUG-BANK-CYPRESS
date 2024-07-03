@@ -8,21 +8,11 @@ Bem-vindo ao Bug Bank, um projeto desenvolvido para testar as funcionalidades cr
 
 ## Funcionalidades Testadas:
 
-### Cadastro
+- **Cadastro**
+- **Login**
+- **Extrato**
+- **Transferência** 
 
-A funcionalidade de cadastro permite que novos usuários criem uma conta no Bug Bank. O sistema deve validar corretamente as informações fornecidas, assegurando que apenas dados válidos sejam aceitos. Os testes automatizados cobrem diversos cenários, incluindo casos de sucesso e falha no processo de registro.
-
-### Login
-
-A funcionalidade de login autentica os usuários registrados, garantindo um acesso seguro às suas contas. Os testes automatizados verificam se o sistema responde apropriadamente a tentativas de login com credenciais válidas e inválidas, assegurando que apenas usuários autenticados possam acessar a aplicação.
-
-### Extrato
-
-O extrato proporciona uma visão detalhada de todas as transações realizadas pelo usuário, incluindo depósitos, saques e transferências. Os testes garantem que todas as transações sejam exibidas corretamente no extrato, mantendo a precisão e a confiabilidade das informações apresentadas.
-
-### Transferência
-
-A funcionalidade de transferência permite que os usuários transfiram fundos entre contas. Os testes automatizados verificam se as transferências são processadas corretamente, incluindo a validação dos valores transferidos e das contas de destino, assegurando a integridade das transações.
 
 ## Pré-requisitos:
 - Node.js
