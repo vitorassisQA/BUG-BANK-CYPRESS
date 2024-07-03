@@ -6,7 +6,7 @@
 
 Bem-vindo ao Bug Bank, um projeto desenvolvido para testar as funcionalidades críticas de uma aplicação web bancária utilizando o framework Cypress. Este repositório é projetado para simular um ambiente real de banco com bugs e falhas, proporcionando uma experiência prática e realista de automação de testes.
 
-## Funcionalidades:
+## Funcionalidades Testadas:
 
 ### Cadastro
 
@@ -23,22 +23,6 @@ O extrato proporciona uma visão detalhada de todas as transações realizadas p
 ### Transferência
 
 A funcionalidade de transferência permite que os usuários transfiram fundos entre contas. Os testes automatizados verificam se as transferências são processadas corretamente, incluindo a validação dos valores transferidos e das contas de destino, assegurando a integridade das transações.
-
----
-
-## Estrutura do Projeto:
-
-#### WEB - Bug Bank
-
-├── Extrato.cy.js
-├── Login.cy.js
-├── Transferencia.cy.js
-├── cadastrar.cy.js
-
-#### WEB - Smoke Test
-
-└── Smoke_Test.cy.js
-
 
 ## Pré-requisitos:
 - Node.js
